@@ -419,6 +419,7 @@ a {
 .link-menu-home {
     text-decoration: underline;
     color: var(--color-1);
+    margin-left: 20px;
 }
 
 .logo-container {
@@ -433,13 +434,16 @@ a {
 }
 
 .menu {
-    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+    width: 30vw;
 }
 
 .menu-item {
     display: inline;
-    padding: 1vw;
-    margin-left: 1vw;
 }
 
 .nav {
