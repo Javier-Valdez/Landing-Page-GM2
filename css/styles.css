@@ -255,15 +255,17 @@ a {
     width: 20vw;
 }
 
-.footer-col * {
-    margin-bottom: 18px;
-}
-
 .footer-col-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     width: 80vw;
+}
+
+.footer-col h2,
+.footer-col h3,
+.footer-col p {
+    margin-bottom: 18px;
 }
 
 .footer-col input {
