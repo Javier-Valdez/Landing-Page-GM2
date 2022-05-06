@@ -354,6 +354,20 @@ a {
     text-transform: uppercase;
 }
 
+.header {
+    margin: 0 10vw 80px 10vw;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 80px;
+    position: relative;
+    width: 100vw;
+}
+
+.header-container {
+    position: absolute;
+    left: 12vw;
+}
+
 .header-data {
     display: flex;
     flex-flow: row nowrap;
@@ -412,13 +426,6 @@ a {
     margin-bottom: 5px;
 }
 
-.hero-header {
-    margin: 0 10vw 80px 10vw;
-    display: flex;
-    flex-flow: column nowrap;
-    margin-bottom: 80px;
-}
-
 .hero-p {
     margin-bottom: 50px;
 }
@@ -426,7 +433,7 @@ a {
 .hero-section {
     background-image: url("../img/Background\ Image.png");
     background-size: contain;
-    padding-bottom: 100px;
+    padding: 250px 0 100px 0;
 }
 
 .hero-square-container {
