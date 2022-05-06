@@ -427,6 +427,20 @@ a {
     padding-bottom: 100px;
 }
 
+.hero-square-container {
+    position: relative;
+    
+}
+
+.hero-square {
+    width: 570px;
+    height: 535px;
+    border: 18px solid var(--color-4);
+    position: absolute;
+    left: 200px;
+    top: -265px;
+}
+
 .link-menu-home {
     text-decoration: underline;
     color: var(--color-1);
@@ -478,20 +492,6 @@ a {
 
 .separator {
     height: 1px;
-}
-
-.square-container {
-    position: relative;
-}
-
-.square {
-    width: 570px;
-    height: 535px;
-    border: 18px solid var(--color-4);
-    position: absolute;
-    left: 200px;
-    top: -265px;
-    z-index: 1;
 }
 
 ul {
