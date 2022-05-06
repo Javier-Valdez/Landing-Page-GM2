@@ -355,7 +355,6 @@ a {
 }
 
 .header {
-    margin: 0 10vw 80px 10vw;
     display: flex;
     flex-flow: column nowrap;
     margin-bottom: 80px;
@@ -365,7 +364,9 @@ a {
 
 .header-container {
     position: absolute;
-    left: 12vw;
+    left: 0;
+    width: 100%;
+    padding: 0 10vw 80px 10vw;
 }
 
 .header-data {
@@ -434,6 +435,7 @@ a {
     background-image: url("../img/Background\ Image.png");
     background-size: contain;
     padding: 250px 0 100px 0;
+    margin-top: -100px;
 }
 
 .hero-square-container {
