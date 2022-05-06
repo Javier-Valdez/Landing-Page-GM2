@@ -1,11 +1,11 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+
 }
 
 :root {
-    font-family: 'Josefin Sans', sans-serif;
-
     --color-1: #5956E9;
     --color-2: #232233;
     --color-3: #6C6C72;
