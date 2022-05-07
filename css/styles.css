@@ -368,6 +368,7 @@ a {
     position: absolute;
     left: 0;
     width: 100%;
+    max-width: 1440px;
     padding: 0 10vw 80px 10vw;
 }
 
@@ -415,8 +416,11 @@ a {
 
 .hero-article-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    width: 80vw;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .hero-h1 {
@@ -438,6 +442,7 @@ a {
     background-size: contain;
     padding: 250px 0 100px 0;
     margin-top: -100px;
+    
 }
 
 .hero-square-container {
@@ -450,8 +455,8 @@ a {
     height: 535px;
     border: 18px solid var(--color-4);
     position: absolute;
-    left: 200px;
-    top: -265px;
+    right: 0;
+    bottom: -265px;
 }
 
 .link-menu-home {
