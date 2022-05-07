@@ -243,8 +243,10 @@ a {
     left: 382px;
 }
 
-.footer-contact p {
+.footer-contact a {
     margin-right: 100px;
+    text-decoration: none;
+    color: var(--color-2);
 }
 
 .footer-col {
