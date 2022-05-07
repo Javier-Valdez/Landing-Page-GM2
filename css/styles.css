@@ -279,6 +279,12 @@ a {
 .footer-copyright {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.footer-copyright img {
+    margin-right: 20px;
 }
 
 .footer-input-button {
