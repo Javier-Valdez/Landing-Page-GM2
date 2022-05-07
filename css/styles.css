@@ -368,7 +368,6 @@ a {
     position: absolute;
     left: 0;
     width: 100%;
-    max-width: 1440px;
     padding: 0 10vw 80px 10vw;
 }
 
