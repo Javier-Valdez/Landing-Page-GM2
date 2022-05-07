@@ -492,6 +492,22 @@ a {
 
 .menu-item {
     display: inline;
+    position: relative;
+}
+
+.menu-item a:not(.link-menu-home):hover::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: var(--color-4);
+    position: absolute;
+    bottom: 0px;    
+}
+
+.menu-item a:not(.link-menu-home) {
+    text-decoration: none;
+    color: var(--color-2);
 }
 
 .nav {
