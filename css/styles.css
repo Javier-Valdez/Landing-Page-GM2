@@ -266,8 +266,12 @@ a {
 
 .footer-col h2,
 .footer-col h3,
-.footer-col p {
+.footer-col .p {
     margin-bottom: 18px;
+}
+
+.footer-col a {
+    color: #FFFFFF;
 }
 
 .footer-col input {
@@ -324,6 +328,7 @@ a {
 .footer-social-media {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 90%;
     filter: invert();
 }
